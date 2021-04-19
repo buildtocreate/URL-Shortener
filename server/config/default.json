@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://chang:chang@cluster.46fai.mongodb.net/url-shortener?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:3000"
+}
