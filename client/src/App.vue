@@ -1,6 +1,8 @@
 <template>
+<div>
   <img src="./assets/logo.png">
   <ImportAddress/>
+</div>
 </template>
 
 <script>

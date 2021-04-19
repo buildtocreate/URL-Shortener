@@ -1,12 +1,14 @@
 <template>
-<form>
-  <input type="text" v-model="longUrl" placeholder="Shorten your link" required>
-  <button type="submit" @click.prevent="submit">Shorten!</button>
-</form>
+<div>
+  <form>
+    <input type="text" v-model="longUrl" placeholder="Shorten your link" required>
+    <button type="submit" @click.prevent="submit">Shorten!</button>
+  </form>
 
-<div class="error" :style="errorColor">{{ urlError }}</div>
-<br>
-<ShowAddress :longUrl="longUrl" ref="form" />
+  <div class="error" :style="errorColor">{{ urlError }}</div>
+  <br>
+  <ShowAddress :longUrl="longUrl" ref="form" />
+</div>
 </template>
 
 <script>
