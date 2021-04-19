@@ -10,5 +10,5 @@ cd client & cd server
 npm run dev
 ```
 
-### Customize configuration
+### More info
 Check me out at [www.yichenchang.com](www.yichenchang.com).
