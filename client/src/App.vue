@@ -1,6 +1,6 @@
 <template>
 <div>
-  <img src="./assets/logo.png">
+  <img class="path" src="./assets/logo.svg">
   <ImportAddress/>
 </div>
 </template>
@@ -31,5 +31,19 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 img {
   width: 50%;
+}
+
+.path {  
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-bottom: 10px;
+}
+  
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 5px); }
+    100%   { transform: translate(0, -0px); }    
 }
 </style>
