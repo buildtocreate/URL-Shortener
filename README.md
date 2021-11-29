@@ -9,6 +9,3 @@ cd client & cd server
 ```
 npm run dev
 ```
-
-### More info
-Check me out at [www.yichenchang.com](www.yichenchang.com).
